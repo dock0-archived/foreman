@@ -1,0 +1,4 @@
+#!/bin/sh
+
+foreman start --root=/srv/app
+
