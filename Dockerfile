@@ -1,6 +1,5 @@
-FROM dock0/service
+FROM dock0/ruby
 MAINTAINER akerl <me@lesaker.org>
-RUN pacman -S --noconfirm --needed ruby
-RUN gem install --no-user-install foreman bundler
+RUN gem install --no-user-install foreman
 ADD run /service/foreman/run
 ENV RACK_ENV production
