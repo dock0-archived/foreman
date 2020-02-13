@@ -1,3 +1,5 @@
+**Deprecation Notice:** I've stopped using this repo in favor of porting my Sinatra apps to Lambdas
+
 dock0/foreman
 =======
 
